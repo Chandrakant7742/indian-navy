@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Navy - Complete Equipment Profile</title>
+    <link rel="icon" type="image/webp" href="images/indn.webp">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="navy-header">
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="navy logo.png" alt="Indian Navy Logo" class="navy-logo">
+                <h1>Indian Navy Equipment Registry</h1>
+            </div>
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Search vessels, aircraft or systems..." onkeyup="searchFunction()">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#submarines"><i class="fas fa-submarine"></i> Submarines</a></li>
+                <li><a href="#carriers"><i class="fas fa-ship"></i> Aircraft Carriers</a></li>
+                <li><a href="#destroyers"><i class="fas fa-fighter-jet"></i> Destroyers</a></li>
+                <li><a href="#frigates"><i class="fas fa-water"></i> Frigates</a></li>
+                <li><a href="#aircraft"><i class="fas fa-plane"></i> Naval Aircraft</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Submarines Section -->
+        <section id="submarines" class="equipment-section">
+            <h2 class="section-title"><i class="fas fa-submarine"></i> Submarine Fleet</h2>
+            
+            <div class="equipment-grid">
+                <!-- Arihant Class -->
+                <article class="equipment-card nuclear">
+                    <div class="card-image">
+                        <img src="images/Arihant_1.png" alt="INS Arihant">
+                        <span class="badge">Nuclear</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>INS Arihant</h3>
+                        <p class="class-name">Arihant-class SSBN</p>
+                        <ul class="spec-list">
+                            <li><strong>Type:</strong> Nuclear-powered ballistic missile submarine</li>
+                            <li><strong>Commissioned:</strong> 2016</li>
+                            <li><strong>Armament:</strong> 12 x K-15 SLBMs (750km range)</li>
+                            <li><strong>Displacement:</strong> 6,000 tons</li>
+                            <li><strong>Speed:</strong> 24 knots (submerged)</li>
+                        </ul>
+                        <a href="https://en.wikipedia.org/wiki/Kalvari-class_submarine_(2015)" >
+                        <button class="details-btn">View Details</button></a>
+                    </div>
+                </article>
+
+                <!-- Kalvari Class -->
+                <article class="equipment-card">
+                    <div class="card-image">
+                        <img src="images/INS_Kalvari_(S21)_at_sea.jpg" alt="INS Kalvari">
+                        <span class="badge">Diesel-Electric</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>INS Kalvari</h3>
+                        <p class="class-name">Kalvari-class (Scorpène)</p>
+                        <ul class="spec-list">
+                            <li><strong>Type:</strong> Diesel-electric attack submarine</li>
+                            <li><strong>Commissioned:</strong> 2017</li>
+                            <li><strong>Armament:</strong> 6 x 533mm torpedo tubes</li>
+                            <li><strong>Displacement:</strong> 1,775 tons</li>
+                            <li><strong>Speed:</strong> 20 knots (submerged)</li>
+                        </ul>
+                        <a href="https://en.wikipedia.org/wiki/Kalvari-class_submarine_(2015)" >
+                        <button class="details-btn">View Details</button></a>
+                    </div>
+                </article>
+
+                <!-- Additional submarine cards would follow same pattern -->
+            </div>
+        </section>
+
+        <!-- Aircraft Carriers Section -->
+        <section id="carriers" class="equipment-section">
+            <h2 class="section-title"><i class="fas fa-ship"></i> Aircraft Carriers</h2>
+            
+            <div class="equipment-grid">
+                <!-- INS Vikramaditya -->
+                <article class="equipment-card carrier">
+                    <div class="card-image">
+                        <img src="images/INS_Vikramaditya_(R33)_at_sea_with_its_full_complement_of_fighters.jpg" alt="INS Vikramaditya">
+                        <span class="badge">Flagship</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>INS Vikramaditya</h3>
+                        <p class="class-name">Modified Kiev-class</p>
+                        <ul class="spec-list">
+                            <li><strong>Type:</strong> STOBAR aircraft carrier</li>
+                            <li><strong>Commissioned:</strong> 2013</li>
+                            <li><strong>Air Wing:</strong> 30+ aircraft (MiG-29K, helicopters)</li>
+                            <li><strong>Displacement:</strong> 45,400 tons</li>
+                            <li><strong>Speed:</strong> 30 knots</li>
+                        </ul>
+                        <a href="https://en.wikipedia.org/wiki/Kiev-class_aircraft_carrier" >
+                        <button class="details-btn">View Details</button></a>
+                    </div>
+                </article>
+
+                <!-- INS Vikrant -->
+                <article class="equipment-card carrier indigenous">
+                    <div class="card-image">
+                        <img src="images/INS_VIkrant_(R11)_underway_in_the_Arabian_Sea_with_4_Mig-29K_Fighter_Jet_performing_flypast.jpg" alt="INS Vikrant">
+                        <span class="badge">Indigenous</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>INS Vikrant (IAC-1)</h3>
+                        <p class="class-name">Vikrant-class</p>
+                        <ul class="spec-list">
+                            <li><strong>Type:</strong> STOBAR aircraft carrier</li>
+                            <li><strong>Commissioned:</strong> 2022</li>
+                            <li><strong>Air Wing:</strong> 30-40 aircraft</li>
+                            <li><strong>Displacement:</strong> 45,000 tons</li>
+                            <li><strong>Speed:</strong> 28 knots</li>
+                        </ul>
+                        <a href="https://en.wikipedia.org/wiki/Vikrant-class_aircraft_carrier" >
+                        <button class="details-btn">View Details</button></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Destroyers Section -->
+        <section id="destroyers" class="equipment-section">
+            <h2 class="section-title"><i class="fas fa-ship"></i> Destroyers</h2>
+            
+            <div class="equipment-grid">
+                <!-- Kolkata Class -->
+                <article class="equipment-card destroyer">
+                    <div class="card-image">
+                        <img src="images/ins kolkata.jpg" alt="INS Kolkata" align="center">
+                        <span class="badge">P15A</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>INS Kolkata</h3>
+                        <p class="class-name">Kolkata-class</p>
+                        <ul class="spec-list">
+                            <li><strong>Type:</strong> Guided missile destroyer</li>
+                            <li><strong>Commissioned:</strong> 2014</li>
+                            <li><strong>Armament:</strong> BrahMos, Barak-8, torpedoes</li>
+                            <li><strong>Displacement:</strong> 7,500 tons</li>
+                            <li><strong>Speed:</strong> 30 knots</li>
+                        </ul>
+                        <a href="https://en.wikipedia.org/wiki/INS_Kolkata" >
+                        <button class="details-btn">View Details</button></a>
+                    </div>
+                </article>
+
+                <!-- Additional destroyer cards would follow same pattern -->
+            </div>
+        </article>
+    </section>
+        <!-- Additional destroyer cards would follow same pattern -->
+    </div>
+</section>
+
+        <!-- Budget Section -->
+        <section class="budget-section">
+            <h2 class="section-title"><i class="fas fa-rupee-sign"></i> Indian Navy Budget 2025-26</h2>
+            <div class="budget-highlights">
+                <div class="budget-card total">
+                    <i class="fas fa-wallet"></i>
+                    <h3>Total Allocation</h3>
+                    <p class="highlight">₹97,149.80 Crore</p>
+                    <p>19.76% of defense budget</p>
+                </div>
+                <div class="budget-card modernization">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Modernization</h3>
+                    <p class="highlight">₹24,390 Crore</p>
+                    <p>New ships & submarines</p>
+                </div>
+                <div class="budget-card indigenous">
+                    <i class="fas fa-industry"></i>
+                    <h3>Indigenous</h3>
+                    <p class="highlight">₹1,500 Crore</p>
+                    <p>Domestic production</p>
+                </div>
+            </div>
+            <div class="budget-details">
+                <p>The Indian Navy's budget for 2025-26 reflects India's maritime security priorities with increased funding for:</p>
+                <ul>
+                    <li>Next-generation submarines (Project 75I)</li>
+                    <li>Additional aircraft carriers (IAC-2)</li>
+                    <li>Naval version of Rafale fighters</li>
+                    <li>Upgrades to existing fleet</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="navy-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <img src="navy logo.png" alt="Indian Navy Logo" class="footer-logo">
+                <p>Indian Navy Equipment Registry<br>Ministry of Defence, Government of India</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Official Navy Website</a></li>
+                    <li><a href="#">Current Deployments</a></li>
+                    <li><a href="#">Recruitment</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p><i class="fas fa-envelope"></i> info@indiannavy.gov.in</p>
+                <p><i class="fas fa-phone"></i> +917742560472</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2024 Indian Navy. All rights reserved. | Data as of March 2024</p>
+        </div>
+    </footer>
+
+    <script>
+        function searchFunction() {
+            // Search functionality implementation
+        }
+    </script>
+</body>
+</html>
